@@ -1,7 +1,5 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import { Navigate } from 'react-router-dom';
-
 import style from '../../styles/layout/header.module.css'
 import { useNavigate } from 'react-router-dom';
 

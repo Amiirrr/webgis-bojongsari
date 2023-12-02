@@ -7,7 +7,7 @@ import { MapContainer, TileLayer, useMap, Marker, Popup, GeoJSON, LayersControl,
 
 // import CustomElement from '../../components/tools/CustomElement';
 // import AsideBar from '../../components/asidebar/AsideBar';
-import Header from '../../components/layout/header';
+import Header from '../../components/layout/Header.jsx';
 
 import petaDepokData from '../../utils/peta_depok.json';
 import koordinatCafe from "../../utils/koordinat_cafe.json"

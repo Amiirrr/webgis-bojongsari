@@ -1,8 +1,6 @@
 import React from 'react'
-import Header from '../../layout/header'
-import Footer from '../../layout/Footer'
-
-import amir from '../../../assets/image/Amir.jpg'
+import Header from '../../layout/Header.jsx';
+import Footer from '../../layout/Footer.jsx'
 
 import { team } from '../../../utils/data'
 

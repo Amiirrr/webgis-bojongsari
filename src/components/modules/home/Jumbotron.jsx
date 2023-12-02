@@ -1,8 +1,7 @@
 import React from 'react'
 
-import Header from '../../layout/header'
-import Footer from '../../layout/Footer'
-import arrow from '../../../assets/image/arrow-right.png'
+import Header from '../../layout/Header.jsx'
+import Footer from '../../layout/Footer.jsx'
 import JumbotronImage from '../../../assets/image/jumbotron2.jpg'
 import style from '../../../styles/home/jumbotron.module.css'
 
