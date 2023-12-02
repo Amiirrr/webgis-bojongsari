@@ -3,10 +3,10 @@ import { useState, useEffect, useRef } from 'react';
 
 import { MapContainer, TileLayer, useMap, Marker, Popup, GeoJSON, LayersControl, FeatureGroup, Tooltip, ZoomControl } from 'react-leaflet'
 
-import AnimatedPanning from '../../components/tools/AnimatedPanning';
+// import AnimatedPanning from '../../components/tools/AnimatedPanning';
 
-import CustomElement from '../../components/tools/CustomElement';
-import AsideBar from '../../components/asidebar/AsideBar';
+// import CustomElement from '../../components/tools/CustomElement';
+// import AsideBar from '../../components/asidebar/AsideBar';
 import Header from '../../components/layout/header';
 
 import petaDepokData from '../../utils/peta_depok.json';
