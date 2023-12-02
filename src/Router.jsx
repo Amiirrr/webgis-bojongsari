@@ -13,7 +13,7 @@ function AppRouter() {
                 <Route exact path="/" element={<Home />} />
             </Routes>
             <Routes>
-                <Route exact path="/home" element={<Home />} />
+                <Route path="/home" element={<Home />} />
             </Routes>
             <Routes>
                 <Route path="/map" element={<Map />}
