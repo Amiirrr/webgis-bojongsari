@@ -21,9 +21,9 @@ const Jumbotron = () => {
                     <img src={JumbotronImage} alt="jumbotron_image" />
                 </div>
             </div>
-            {/* <div style={{ height: "1000px" }}>
+            <div style={{ height: "1000px" }}>
 
-            </div> */}
+            </div>
             <Footer />
 
         </div>
