@@ -19,16 +19,16 @@ const Footer = () => {
                     </div>
                     <div className={style.content_sosmed}>
                         <div>
-                            <img src={instagram} alt="" />
+                            <img src={instagram} alt="instagram" />
                         </div>
                         <div>
-                            <img src={youtube} alt="" />
+                            <img src={youtube} alt="youtube" />
                         </div>
                         <div>
-                            <img src={twitter} alt="" />
+                            <img src={twitter} alt="twitter" />
                         </div>
                         <div>
-                            <img src={globe} alt="" />
+                            <img src={globe} alt="globe" />
                         </div>
                     </div>
                 </div>
