@@ -1,0 +1,66 @@
+.jumbotron {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.jumbotron_content {
+    position: absolute;
+    z-index: 10;
+    color: white;
+    font-family: var(--body-font);
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(15px, 1.5vw, 20px);
+}
+
+.jumbotron_content h1 {
+    font-size: clamp(30px, 7vw, 90px);
+    /* font-size: clamp(0px, calc(4vw + 50px), 90px); */
+}
+
+.jumbotron_content p {
+    font-size: clamp(12px, 1.5vw, 20px);
+    letter-spacing: 1.5px;
+    margin-left: 5px;
+}
+
+.jumbotron_content button {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: clamp(100px, 20vw, 200px);
+    padding: 10px;
+    color: white;
+    background-color: #B99470;
+    border: none;
+    font-size: clamp(12px, 1.5vw, 16px);
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-radius: 25px;
+}
+
+.jumbotron_content button::after {
+    content: url(../../assets/image/arrow-right.png);
+    margin-bottom: -5px;
+}
+
+.jumbotron_image {
+    width: 100%;
+    height: 100%;
+}
+
+.jumbotron_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+    -webkit-filter: brightness(60%);
+}

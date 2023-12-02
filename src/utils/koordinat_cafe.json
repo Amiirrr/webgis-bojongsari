@@ -1,0 +1,600 @@
+{
+    "type": "FeatureCollection",
+    "name": "koordinat_cafe",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Nama Cafe": "Lampaoe Coffee",
+                "Latitude": -6.374220094180008,
+                "Longitude": 106.72708156433109,
+                "Koordinat": "-6.374220094180008, 106.72708156433109",
+                "Kelurahan": "Pondok Petir",
+                "Alamat": "Jl. Serua Bulak Raya, gg, Jl. H. Sarmat No.11 RT 04/03, Pd. Petir, Kec. Bojongsari, Kota Depok, Jawa Barat 16517",
+                "Opsi Layan": "1. Tempat duduk di area terbuka \n2. Pesan antar \n3. Bawa pulang \n4. Makan di tempat",
+                "Jam Operas": "SETIAP HARI 09.00 - 23.30",
+                "Informasi": 85694939251.0,
+                "Ulasan": 4.8,
+                "Fasiltas": "- Wifi\n- Toilet\n- Memiliki Bar",
+                "Pembayaran": "- QRIS\n- Cash\n- Kartu Kredit",
+                "Sosial Med": "https://www.instagram.com/lam.paoe/",
+                "DriveDokum": "1. Lampaoe Coffee",
+                "List Kelur": "Pondok Petir"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.727081564331087,
+                    -6.374220094180008
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Nama Cafe": "Konkow caffe",
+                "Latitude": -6.374724761909178,
+                "Longitude": 106.72578733570744,
+                "Koordinat": "-6.374724761909177, 106.72578733570744",
+                "Kelurahan": "Pondok Petir",
+                "Alamat": "JPGG+487, Jl. Serua Bulak Raya, Pd. Petir, Kec. Bojongsari, Kota Depok, Jawa Barat 16517",
+                "Opsi Layan": "1. Tempat duduk di area terbuka \n2. Pesan antar \n3. Bawa pulang \n4. Makan di tempat",
+                "Jam Operas": "SETIAP HARI 10.00 - 22.00",
+                "Informasi": null,
+                "Ulasan": 5.0,
+                "Fasiltas": "- Wifi\n- Toilet",
+                "Pembayaran": "Cash",
+                "Sosial Med": "https://www.instagram.com/konkow.cafe/",
+                "DriveDokum": "2. Konkow caffe",
+                "List Kelur": "Curug"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.725787335707437,
+                    -6.374724761909177
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "3",
+                "Nama Cafe": "Warunk Tepi Jalan (WTJ)",
+                "Latitude": -6.3689465,
+                "Longitude": 106.7356009,
+                "Koordinat": "-6.3689465, 106.7356009",
+                "Kelurahan": "Serua",
+                "Alamat": "JPJP+C7C, Jl. Reni Jaya Tim., Serua, Kec. Bojongsari, Kota Depok, Jawa Barat 16517",
+                "Opsi Layan": "1. Bawa pulang \n2. Makan di tempat",
+                "Jam Operas": "SETIAP HARI 10.30 - 23.00",
+                "Informasi": 85715880212.0,
+                "Ulasan": 5.0,
+                "Fasiltas": "- Wifi\n- Toilet\n- Lantai 2\n",
+                "Pembayaran": "Cash",
+                "Sosial Med": "https://www.instagram.com/warunktepijalan_wtj/?igshid=MzNlNGNkZWQ4Mg%3D%3D",
+                "DriveDokum": "3. Warunk Tepi Jalan (WTJ)",
+                "List Kelur": "Serua"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.7356009,
+                    -6.3689465
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "4",
+                "Nama Cafe": "Sarang Kopi",
+                "Latitude": -6.366953193343984,
+                "Longitude": 106.73147252531301,
+                "Koordinat": "-6.366953193343984, 106.73147252531301",
+                "Kelurahan": "Serua",
+                "Alamat": "Jl. H. Nawi Malik, Serua, Kec. Bojongsari, Kota Depok, Jawa Barat 16517",
+                "Opsi Layan": "1. Bawa pulang \n2. Makan di tempat",
+                "Jam Operas": "Setiap Hari 24 jam",
+                "Informasi": 85820010926.0,
+                "Ulasan": 4.3,
+                "Fasiltas": "- Wifi\n- Toilet",
+                "Pembayaran": "- QRIS\n- Cash\n",
+                "Sosial Med": null,
+                "DriveDokum": "4. Sarang Kopi",
+                "List Kelur": "Bojongsari Lama"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.731472525313009,
+                    -6.366953193343984
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "5",
+                "Nama Cafe": "Kopimili Serua",
+                "Latitude": -6.3768476899456656,
+                "Longitude": 106.73713482528049,
+                "Koordinat": "-6.376847689945665, 106.73713482528049",
+                "Kelurahan": "Serua",
+                "Alamat": "Perumahan Permata Mansion Cluster Jade Blok JD2 no.7, Serua, Kec. Bojongsari, Kota Depok, Jawa Barat 16517",
+                "Opsi Layan": "1. Bawa pulang \n2. Makan di tempat\n3. Pesan antar",
+                "Jam Operas": "SETIAP HARI 10.30 - 23.00",
+                "Informasi": 81318541481.0,
+                "Ulasan": 4.8,
+                "Fasiltas": "- Wifi\n- Toilet",
+                "Pembayaran": "Cash",
+                "Sosial Med": null,
+                "DriveDokum": "5. Kopimili Serua",
+                "List Kelur": "Bojongsari Baru"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.737134825280492,
+                    -6.376847689945665
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "6",
+                "Nama Cafe": "Kampung Belang Cafe & Resto",
+                "Latitude": -6.3888500015598124,
+                "Longitude": 106.73786817012913,
+                "Koordinat": "-6.3888500015598115, 106.73786817012913",
+                "Kelurahan": "Curug",
+                "Alamat": "Jl. Mandor Tadjir No.184, Curug, Kec. Bojongsari, Kota Depok, Jawa Barat 16517",
+                "Opsi Layan": "1. Tempat duduk di area terbuka \n2. Pesan antar \n3. Bawa pulang \n4. Makan di tempat",
+                "Jam Operas": "SETIAP HARI 10.00 - 23.00",
+                "Informasi": 811936674.0,
+                "Ulasan": 4.4,
+                "Fasiltas": "- Wifi\n- Toilet\n- Live Musik\n- Karoke",
+                "Pembayaran": "- QRIS\n- Cash\n- Kartu Kredit",
+                "Sosial Med": "https://www.instagram.com/kampungbelang.resto/",
+                "DriveDokum": "6. Kampung Belang Cafe & Resto",
+                "List Kelur": "Duren Mekar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.737868170129133,
+                    -6.388850001559812
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "7",
+                "Nama Cafe": "Atatu Kopi",
+                "Latitude": -6.3979847349144361,
+                "Longitude": 106.73307427301245,
+                "Koordinat": "-6.397984734914436, 106.73307427301245",
+                "Kelurahan": "Curug",
+                "Alamat": "Jalan Raya Curug, Bojongsari, Sawangan, Curug, Kec. Bojongsari, Kota Depok, Jawa Barat 16517",
+                "Opsi Layan": "1. Bawa pulang \n2. Makan di tempat\n3. Pesan antar",
+                "Jam Operas": "Senin-kamis 09.00 - 22.00 \nJumat-minggu 08.00-23.00",
+                "Informasi": null,
+                "Ulasan": 4.6,
+                "Fasiltas": "- Wifi\n- Toilet",
+                "Pembayaran": "- QRIS\n- Cash\n",
+                "Sosial Med": "https://www.instagram.com/atatu.kopi/",
+                "DriveDokum": "7. Atatu Kopi",
+                "List Kelur": "Duren Seribu"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.733074273012448,
+                    -6.397984734914436
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "8",
+                "Nama Cafe": "Share Kafe",
+                "Latitude": -6.3949673030114376,
+                "Longitude": 106.73297251165125,
+                "Koordinat": "-6.394967303011438, 106.73297251165124",
+                "Kelurahan": "Curug",
+                "Alamat": "JP4M+259, Jl. Lestari 2, Curug, Kec. Bojongsari, Kota Depok, Jawa Barat 16517",
+                "Opsi Layan": "1. Bawa pulang \n2. Makan di tempat",
+                "Jam Operas": "Sabtu 14.00–23.00 \nMinggu 14.00–23.00\nSeninTutup\nSelasa 14.00–23.00\nRabu 14.00–23.00\nKamis 14.00–23.00\nJumat1",
+                "Informasi": 81330057713.0,
+                "Ulasan": 4.9,
+                "Fasiltas": "- Wifi\n- Toilet",
+                "Pembayaran": "Cash",
+                "Sosial Med": "https://www.instagram.com/sharekafe/",
+                "DriveDokum": "8. Share Kafe",
+                "List Kelur": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.732972511651241,
+                    -6.394967303011438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "9",
+                "Nama Cafe": "WARMINET",
+                "Latitude": -6.4060862681731896,
+                "Longitude": 106.73903227246659,
+                "Koordinat": "-6.4060862681731905, 106.73903227246659",
+                "Kelurahan": "Curug",
+                "Alamat": "Jl. Raya Bojongsari No.61 A, Curug, Kec. Bojongsari, Kota Depok, Jawa Barat 16517",
+                "Opsi Layan": "1. Bawa pulang \n2. Makan di tempat\n3. Pesan antar",
+                "Jam Operas": "SETIAP HARI 10.00 - 23.00",
+                "Informasi": 81388844483.0,
+                "Ulasan": 4.4,
+                "Fasiltas": "- Wifi\n- Toilet",
+                "Pembayaran": "- QRIS\n- Cash\n",
+                "Sosial Med": null,
+                "DriveDokum": "9. WARMINET",
+                "List Kelur": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.739032272466588,
+                    -6.40608626817319
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "10",
+                "Nama Cafe": "Terapot Home Gallery & Cafe",
+                "Latitude": -6.3980635331879041,
+                "Longitude": 106.73308437054273,
+                "Koordinat": "-6.398063533187903, 106.73308437054273",
+                "Kelurahan": "Curug",
+                "Alamat": "Jl. Raya Curug No.165, RT.01/RW.05, Curug, Kec. Bojongsari, Kota Depok, Jawa Barat 16517",
+                "Opsi Layan": "1. Bawa pulang \n2. Makan di tempat\n3. Pesan antar",
+                "Jam Operas": "Setiap hari,08.00–20.",
+                "Informasi": 81289212655.0,
+                "Ulasan": 4.5,
+                "Fasiltas": "- Wifi\n- Toilet",
+                "Pembayaran": "- QRIS\n- Cash\n",
+                "Sosial Med": null,
+                "DriveDokum": "10. Terapot Home Gallery & Cafe",
+                "List Kelur": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.733084370542727,
+                    -6.398063533187903
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "11",
+                "Nama Cafe": "TOMORO COFFEE - The Park Sawangan",
+                "Latitude": -6.3762319472660556,
+                "Longitude": 106.74501232720687,
+                "Koordinat": "-6.3762319472660565, 106.74501232720687",
+                "Kelurahan": "Bojongsari Lama",
+                "Alamat": "Jl. Raya Parung - Ciputat No.1, RW.004, Serua, Kec. Bojongsari, Kota Depok, Jawa Barat",
+                "Opsi Layan": "1. Bawa pulang \n2. Makan di tempat\n3. Pesan antar",
+                "Jam Operas": "Setiap hari,09.00–20.",
+                "Informasi": null,
+                "Ulasan": 5.0,
+                "Fasiltas": "- Wifi",
+                "Pembayaran": "- QRIS\n- Cash\n",
+                "Sosial Med": null,
+                "DriveDokum": "11. TOMORO COFFEE - The Park Sawangan",
+                "List Kelur": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.745012327206865,
+                    -6.376231947266056
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "12",
+                "Nama Cafe": "Starbucks Coffee Bojongsari",
+                "Latitude": -6.4014910019703422,
+                "Longitude": 106.74256313192099,
+                "Koordinat": "-6.401491001970342, 106.74256313192099",
+                "Kelurahan": "Bojongsari Lama",
+                "Alamat": "Jl. Cinangka Raya, Bojongsari Lama, Kec. Bojongsari, Kota Depok, Jawa Barat 16516",
+                "Opsi Layan": "1. Bawa pulang \n2. Makan di tempat\n3. Pesan antar",
+                "Jam Operas": "Setiap hari,07.00–22.",
+                "Informasi": null,
+                "Ulasan": 4.8,
+                "Fasiltas": "- Wifi\n- Toilet",
+                "Pembayaran": "- QRIS\n- Cash\n- Kartu Kredit",
+                "Sosial Med": null,
+                "DriveDokum": "12. Starbucks Coffee Bojongsari",
+                "List Kelur": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.742563131920988,
+                    -6.401491001970342
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "13",
+                "Nama Cafe": "JOGLO TEDUH",
+                "Latitude": -6.3839719542795823,
+                "Longitude": 106.74136442750094,
+                "Koordinat": "-6.383971954279581, 106.74136442750094",
+                "Kelurahan": "Bojongsari Baru",
+                "Alamat": "Jl. Abdul Rohim No.1, RT.2/RW.6, Bojongsari Baru, Kec. Bojongsari, Kota Depok, Jawa Barat 16516",
+                "Opsi Layan": "1. Bawa pulang \n2. Makan di tempat\n3. Pesan antar",
+                "Jam Operas": "Setiap 13.00–00.",
+                "Informasi": 82114624398.0,
+                "Ulasan": 4.6,
+                "Fasiltas": "- Wifi\n- Toilet\n- Live Music",
+                "Pembayaran": "- QRIS\n- Cash\n",
+                "Sosial Med": "https://www.instagram.com/jogloteduh/",
+                "DriveDokum": "13. JOGLO TEDUH",
+                "List Kelur": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.74136442750094,
+                    -6.383971954279581
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "14",
+                "Nama Cafe": "A'Cafe Bojongsari",
+                "Latitude": -6.3880841272914637,
+                "Longitude": 106.74579251498919,
+                "Koordinat": "-6.388084127291464, 106.74579251498919",
+                "Kelurahan": "Bojongsari Baru",
+                "Alamat": "Jl. Raya Parung - Ciputat No.8 - 9, RT.1/RW.7, Bojongsari Baru, Kec. Bojongsari, Kota Depok, Jawa Barat 16522",
+                "Opsi Layan": "1. Tempat duduk di area terbuka \n2. Pesan antar \n3. Bawa pulang \n4. Makan di tempat",
+                "Jam Operas": "Sabtu 08.00–21.00\nMinggu 16.00–21.00\nSenin 08.00–21.00\nSelasa 08.00–21.00\nRabu 08.00–21.00\nKamis 08.00–21.00\nJumat",
+                "Informasi": 85774203460.0,
+                "Ulasan": 4.3,
+                "Fasiltas": "- Wifi\n- Toilet\n- Live Music",
+                "Pembayaran": "- QRIS\n- Cash\n",
+                "Sosial Med": null,
+                "DriveDokum": "14. A'Cafe Bojongsari",
+                "List Kelur": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.745792514989191,
+                    -6.388084127291464
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "15",
+                "Nama Cafe": "Kopi Contang",
+                "Latitude": -6.3962945771555244,
+                "Longitude": 106.74297846036123,
+                "Koordinat": "-6.396294577155524, 106.74297846036123",
+                "Kelurahan": "Bojongsari Baru",
+                "Alamat": "Jl. Raya Bojongsari, Bojongsari Baru, Kec. Bojongsari, Kota Depok, Jawa Barat 16516",
+                "Opsi Layan": "1. Tempat duduk di area terbuka \n2. Pesan antar \n3. Bawa pulang \n4. Makan di tempat",
+                "Jam Operas": "Selasa - Minggu 12.00 - 21.00",
+                "Informasi": 81219856508.0,
+                "Ulasan": 5.0,
+                "Fasiltas": "- Wifi\n- Toilet",
+                "Pembayaran": "Cash",
+                "Sosial Med": "https://www.instagram.com/kopicontang/",
+                "DriveDokum": "15. Kopi Contang",
+                "List Kelur": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.742978460361229,
+                    -6.396294577155524
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "16",
+                "Nama Cafe": "Mango Mase - Coffee & Eatery",
+                "Latitude": -6.4160095379041264,
+                "Longitude": 106.73422718080853,
+                "Koordinat": "-6.4160095379041255, 106.73422718080853",
+                "Kelurahan": "Duren Mekar",
+                "Alamat": "Jl. Bukit Sawangan Indah No.8, Duren Mekar, Bojongsari, Depok City, West Java 16518",
+                "Opsi Layan": "1. Tempat duduk di area terbuka \n2. Pesan antar \n3. Bawa pulang \n4. Makan di tempat",
+                "Jam Operas": "12.00 - 23.00 (Setiap Hari)",
+                "Informasi": 87840654903.0,
+                "Ulasan": 4.8,
+                "Fasiltas": "- Wifi\n- Toilet\n- 2 lantai\n- Memiliki Bar",
+                "Pembayaran": "- QRIS\n- Cash\n- Kartu Kredit",
+                "Sosial Med": "https://www.instagram.com/mangomase.id/",
+                "DriveDokum": "16. Mango Mase - Coffee & Eatery",
+                "List Kelur": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.734227180808531,
+                    -6.416009537904126
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "17",
+                "Nama Cafe": "Kopi TOMPEL",
+                "Latitude": -6.421720597396134,
+                "Longitude": 106.73694890102068,
+                "Koordinat": "-6.421720597396133, 106.73694890102068",
+                "Kelurahan": "Duren Mekar",
+                "Alamat": "jalan H. maih rt 01 rw 01 no 22 kp desa, Duren Mekar, Kec. Bojongsari, Kota Depok, Jawa Barat",
+                "Opsi Layan": "1. Tempat duduk di area terbuka \n2. Pesan antar \n3. Bawa pulang \n4. Makan di tempat",
+                "Jam Operas": "19.00 - 00.00 (Kamis Tutup)",
+                "Informasi": 81296200171.0,
+                "Ulasan": 4.8,
+                "Fasiltas": "- Wifi\n- Toilet",
+                "Pembayaran": "Cash",
+                "Sosial Med": null,
+                "DriveDokum": "17. Kopi TOMPEL",
+                "List Kelur": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.736948901020682,
+                    -6.421720597396133
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "18",
+                "Nama Cafe": "Lintas kopi sosial",
+                "Latitude": -6.4168267219386017,
+                "Longitude": 106.73712267826177,
+                "Koordinat": "-6.416826721938601, 106.73712267826178",
+                "Kelurahan": "Duren Mekar",
+                "Alamat": "Jl. Kp. Duren Mekar No.38, Duren Mekar, Kec. Bojongsari, Kota Depok, Jawa Barat 16518",
+                "Opsi Layan": "1. Tempat duduk di area terbuka \n2. Bawa pulang \n3. Makan di tempat",
+                "Jam Operas": "16.00 - 00.00 (Setiap Hari)",
+                "Informasi": null,
+                "Ulasan": 5.0,
+                "Fasiltas": "- Wifi\n- Toilet",
+                "Pembayaran": "Cash",
+                "Sosial Med": "https://www.instagram.com/lks8.id/",
+                "DriveDokum": "18. Lintas kopi sosial",
+                "List Kelur": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.737122678261784,
+                    -6.416826721938601
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "19",
+                "Nama Cafe": "O'Mind Coffee And Eatery",
+                "Latitude": -6.4296385620891501,
+                "Longitude": 106.74420266625934,
+                "Koordinat": "-6.42963856208915, 106.74420266625934",
+                "Kelurahan": "Duren Seribu",
+                "Alamat": "Jl. Kp. Kandang Duren Seribu No.60, Duren Seribu, Kec. Bojongsari, Kota Depok, Jawa Barat 16518",
+                "Opsi Layan": "1. Tempat duduk di area terbuka \n2. Pesan antar \n3. Bawa pulang \n4. Makan di tempat",
+                "Jam Operas": "Setiap hari,09.00–23.",
+                "Informasi": 83808811797.0,
+                "Ulasan": 5.0,
+                "Fasiltas": "- Wifi\n- Toilet",
+                "Pembayaran": "- QRIS\n- Cash\n- Kartu Kredit",
+                "Sosial Med": null,
+                "DriveDokum": "19. O'Mind Coffee And Eatery",
+                "List Kelur": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.744202666259341,
+                    -6.42963856208915
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "20",
+                "Nama Cafe": "Tabik Coffee",
+                "Latitude": -6.4307488739938083,
+                "Longitude": 106.75078655268183,
+                "Koordinat": "-6.430748873993807, 106.75078655268183",
+                "Kelurahan": "Duren Seribu",
+                "Alamat": "Duren Seribu, Kec. Bojongsari, Kota Depok, Jawa Barat 16518",
+                "Opsi Layan": "1. Bawa pulang \n2. Makan di tempat",
+                "Jam Operas": "Setiap hari,10.00–22.",
+                "Informasi": 81717177376.0,
+                "Ulasan": 4.8,
+                "Fasiltas": "- Wifi\n- Toilet",
+                "Pembayaran": "Cash",
+                "Sosial Med": "https://www.instagram.com/tabikcoffee/",
+                "DriveDokum": "20. Tabik Coffee",
+                "List Kelur": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.750786552681831,
+                    -6.430748873993807
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "21",
+                "Nama Cafe": "Daun Teduh Coffee & Eatary",
+                "Latitude": -6.4386581648872641,
+                "Longitude": 106.74339063403281,
+                "Koordinat": "-6.438658164887263, 106.7433906340328",
+                "Kelurahan": "Duren Seribu",
+                "Alamat": "Jl. Durian, Duren Seribu, Kec. Bojongsari, Kota Depok, Jawa Barat 16518",
+                "Opsi Layan": "1. Tempat duduk di area terbuka \n2. Pesan antar \n3. Bawa pulang \n4. Makan di tempat",
+                "Jam Operas": "Setiap hari,16.00–23.",
+                "Informasi": null,
+                "Ulasan": 4.6,
+                "Fasiltas": "- Wifi\n- Toilet",
+                "Pembayaran": "- QRIS\n- Cash\n",
+                "Sosial Med": null,
+                "DriveDokum": "21. Daun Teduh Coffee & Eatary",
+                "List Kelur": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.743390634032806,
+                    -6.438658164887263
+                ]
+            }
+        }
+    ]
+}
