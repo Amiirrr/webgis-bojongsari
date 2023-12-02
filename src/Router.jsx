@@ -16,12 +16,10 @@ function AppRouter() {
                 <Route path="/home" element={<Home />} />
             </Routes>
             <Routes>
-                <Route path="/map" element={<Map />}
-                />
+                <Route path="/map" element={<Map />} />
             </Routes>
             <Routes>
-                <Route path="/about-us" element={<AboutUs />}
-                />
+                <Route path="/about-us" element={<AboutUs />} />
             </Routes>
         </Router>
     );
