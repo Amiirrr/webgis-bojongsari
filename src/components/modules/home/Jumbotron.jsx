@@ -20,9 +20,6 @@ const Jumbotron = () => {
                     <img src={JumbotronImage} alt="jumbotron_image" />
                 </div>
             </div>
-            <div style={{ height: "1000px" }}>
-
-            </div>
             <Footer />
 
         </div>

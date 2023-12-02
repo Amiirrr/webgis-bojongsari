@@ -1,7 +1,7 @@
 .header {
     position: sticky;
     top: 0;
-    z-index: 9999;
+    z-index: 9999 !important;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -11,17 +11,22 @@
 
 .fixed_header {
     position: fixed;
+    z-index: 9999;
+
 }
 
 .sticky_header {
     position: sticky;
     box-shadow: 5px 5px 10px 0px rgba(231, 231, 231, 0.5);
+    z-index: 9999 !important;
+    background-color: white;
 }
 
 .scrolled {
     background-color: white;
     box-shadow: 5px 5px 10px 0px rgba(231, 231, 231, 0.5);
     transition: background-color 0.5s ease, opacity 0.5s ease;
+    z-index: 9999 !important;
 }
 
 .navigation {
