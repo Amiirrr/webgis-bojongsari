@@ -3,7 +3,7 @@ import style from '../../styles/layout/footer.module.css'
 import instagram from '../../assets/image/instagram.png'
 import youtube from '../../assets/image/youtube.png'
 import twitter from '../../assets/image/twitter.png'
-import globe from '../../assets/image/globe.png'
+import github from '../../assets/image/github.png'
 
 const Footer = () => {
     return (
@@ -28,7 +28,7 @@ const Footer = () => {
                             <img src={twitter} alt="twitter" />
                         </div>
                         <div>
-                            <img src={globe} alt="globe" />
+                            <img src={github} alt="github" />
                         </div>
                     </div>
                 </div>

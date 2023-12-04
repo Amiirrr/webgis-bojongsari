@@ -2,10 +2,13 @@
   /*=======================Color==================*/
   --color-primary: #444BF2;
   --color-secondary: #C9CBFF;
-  --color-state-info: #577590;
+  --color-state-info: #98a6b3;
   --color-state-success: #90BE6D;
   --color-state-warning: #F9C74F;
   --color-state-error: #F94144;
+  --color-lite-chocolate: #FEFAE0;
+  --color-dark-chocolate: #65451F;
+
 
   /*======================Font and Typography==================*/
   --body-font: 'Plus Jakarta Sans', sans-serif;
