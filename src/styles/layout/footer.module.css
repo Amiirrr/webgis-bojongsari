@@ -64,10 +64,7 @@
     padding: 10px;
     background-color: #e0dcbe;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    cursor: pointer;
 }
 
 .content_sosmed img {

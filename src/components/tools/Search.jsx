@@ -11,11 +11,11 @@ const Search = ({ show, setShow, setInputSearch }) => {
         <div className={style.search_wrapper}
             onClick={() => setShow(true)}
         >
-            <div className={style.search_icon}>
-                <img src={searchIcon} alt="icon-search" />
-            </div>
             <div className={style.search_input}>
                 <input type="text" onChange={(e) => setInputSearch(e.target.value)} />
+            </div>
+            <div className={style.search_icon}>
+                <img src={searchIcon} alt="icon-search" />
             </div>
         </div>
     )
