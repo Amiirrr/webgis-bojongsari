@@ -8,11 +8,11 @@ import closeIcon from '../../assets/image/cross.png'
 import cafe from '../../assets/image/jumbotron2.jpg'
 import data from '../../utils/koordinat_cafe.json'
 
-import img1 from '../../assets/image/cafe_konkow/Konkow caffe 1.jpg'
-import img2 from '../../assets/image/cafe_konkow/Konkow caffe 2.jpg'
-import img3 from '../../assets/image/cafe_konkow/Konkow caffe 3.jpg'
-import img4 from '../../assets/image/cafe_konkow/Konkow caffe 4.jpg'
-import img5 from '../../assets/image/cafe_konkow/Konkow caffe 5.jpg'
+// import img1 from '../../assets/image/cafe_konkow/Konkow caffe 1.jpg'
+// import img2 from '../../assets/image/cafe_konkow/Konkow caffe 2.jpg'
+// import img3 from '../../assets/image/cafe_konkow/Konkow caffe 3.jpg'
+// import img4 from '../../assets/image/cafe_konkow/Konkow caffe 4.jpg'
+// import img5 from '../../assets/image/cafe_konkow/Konkow caffe 5.jpg'
 
 import Style from "./asideBar.module.css"
 
@@ -64,7 +64,7 @@ const AsideBar = ({ openSidebar, setOpenSidebar, inputSearch, setInputSearch }) 
                                 onClick={() => handleCafeOption(data["Nama Cafe"])}
                             >
                                 <div className={Style.content_img}>
-                                    <img src={cafe} alt="cafe" />
+                                    <img src={data.image[0]} alt="cafe" />
                                 </div>
                                 <div className={Style.content_isi}>
                                     <p>{data["Nama Cafe"]}</p>
@@ -78,11 +78,23 @@ const AsideBar = ({ openSidebar, setOpenSidebar, inputSearch, setInputSearch }) 
         )
     }
 
+    const handleRating = (rating) => {
+        if (rating === 5.0) {
+            return (
+                <p>{rating} <span className={Style.star_full}>&#9733;&#9733;&#9733;&#9733;&#9733;</span>(10050)</p>
+            )
+        } else {
+            return (
+                <p>{rating} <span className={Style.star_full}>&#9733;&#9733;&#9733;&#9733;</span><span className={Style.star_half}>&#9733;</span>(10050)</p>
+            )
+        }
+    }
+
     const renderSelectionCafe = (selectedData) => {
         return (
             <div className={`${Style.card_cafe} ${!infoCafe ? Style.aside_close : ""}`}>
                 <div className={Style.card_image}>
-                    <img src={cafe} alt="card-Image" />
+                    <img src={selectedData.image[0]} alt="card-Image" />
                     <div className={Style.card_close}>
                         <img src={closeIcon} alt="close"
                             onClick={() => setInfoCafe(!infoCafe)} />
@@ -90,7 +102,7 @@ const AsideBar = ({ openSidebar, setOpenSidebar, inputSearch, setInputSearch }) 
                 </div>
                 <div className={Style.card_header}>
                     <h3 className={Style.card_title}>{selectedData["Nama Cafe"]}</h3>
-                    <p>{selectedData.Ulasan} <span className={Style.star_full}>&#9733;&#9733;&#9733;&#9733;</span><span className={Style.star_half}>&#9733;</span>(10050)</p>
+                    {handleRating(selectedData.Ulasan)}
                     <p>Coffee Shop</p>
                 </div>
                 <div className={Style.card_content_option}>
@@ -137,11 +149,11 @@ const AsideBar = ({ openSidebar, setOpenSidebar, inputSearch, setInputSearch }) 
                                 <div className={Style.photos_cafe}>
                                     <p className={Style.section_title}>Photos</p>
                                     <div className={Style.photos}>
-                                        <img src={img1} alt="img1" />
-                                        <img src={img2} alt="img1" />
-                                        <img src={img3} alt="img1" />
-                                        <img src={img4} alt="img1" />
-                                        <img src={img5} alt="img1" />
+                                        {
+                                            selectedData.image.map((data) => (
+                                                <img src={data} alt="img1" />
+                                            ))
+                                        }
                                     </div>
                                 </div>
                             </React.Fragment>

@@ -19,5 +19,4 @@ export const team = [
         nim: "11200930000026",
         img: amirImage
     },
-
 ]

@@ -24,10 +24,17 @@
                     "Bawa pulang,",
                     "Makan di tempat"
                 ],
+                "image": [
+                    "image/cafe_lampaoe/Lampaoe Coffee 1.JPG",
+                    "image/cafe_lampaoe/Lampaoe Coffee 2.JPG",
+                    "image/cafe_lampaoe/Lampaoe Coffee 3.JPG",
+                    "image/cafe_lampaoe/Lampaoe Coffee 4.jpeg",
+                    "image/cafe_lampaoe/Lampaoe Coffee 5.jpg"
+                ],
                 "Jam Operas": [
                     "SETIAP HARI 09.00 - 23.30"
                 ],
-                "Informasi": 85694939251.0,
+                "Informasi": "+62 85694939251",
                 "Ulasan": 4.8,
                 "Fasiltas": [
                     "Wifi",
@@ -67,10 +74,17 @@
                     "Bawa pulang,",
                     "Makan di tempat"
                 ],
+                "image": [
+                    "image/cafe_konkow/Konkow caffe 1.jpg",
+                    "image/cafe_konkow/Konkow caffe 2.jpg",
+                    "image/cafe_konkow/Konkow caffe 3.jpg",
+                    "image/cafe_konkow/Konkow caffe 4.jpg",
+                    "image/cafe_konkow/Konkow caffe 5.jpg"
+                ],
                 "Jam Operas": [
                     "SETIAP HARI 10.00 - 22.00"
                 ],
-                "Informasi": null,
+                "Informasi": "+62 8953444339251",
                 "Ulasan": 5.0,
                 "Fasiltas": [
                     "Wifi",
@@ -108,7 +122,14 @@
                 "Jam Operas": [
                     "SETIAP HARI 10.30 - 23.00"
                 ],
-                "Informasi": 85715880212.0,
+                "image": [
+                    "image/cafe_tepijalan/Warunk Tepi Jalan (WTJ) 1.jpg",
+                    "image/cafe_tepijalan/Warunk Tepi Jalan (WTJ) 2.jpg",
+                    "image/cafe_tepijalan/Warunk Tepi Jalan (WTJ) 3.jpg",
+                    "image/cafe_tepijalan/Warunk Tepi Jalan (WTJ) 4.jpg",
+                    "image/cafe_tepijalan/Warunk Tepi Jalan (WTJ) 5.jpg"
+                ],
+                "Informasi": "+62 85715880212",
                 "Ulasan": 5.0,
                 "Fasiltas": [
                     "Wifi",
@@ -147,7 +168,12 @@
                 "Jam Operas": [
                     "Setiap Hari 24 jam"
                 ],
-                "Informasi": 85820010926.0,
+                "image": [
+                    "image/cafe_sarangkopi/Sarang Kopi 2.jpg",
+                    "image/cafe_sarangkopi/Sarang Kopi 1.jpg",
+                    "image/cafe_sarangkopi/Sarang Kopi 3.jpg"
+                ],
+                "Informasi": "+62 85820010926",
                 "Ulasan": 4.3,
                 "Fasiltas": [
                     "Wifi",
@@ -187,7 +213,14 @@
                 "Jam Operas": [
                     "SETIAP HARI 10.30 - 23.00"
                 ],
-                "Informasi": 81318541481.0,
+                "image": [
+                    "image/cafe_kopimili/Kopimili Serua 5.jpg",
+                    "image/cafe_kopimili/Kopimili Serua 1.jpg",
+                    "image/cafe_kopimili/Kopimili Serua 2.jpg",
+                    "image/cafe_kopimili/Kopimili Serua 3.jpg",
+                    "image/cafe_kopimili/Kopimili Serua 4.jpg"
+                ],
+                "Informasi": "+62 1318541481",
                 "Ulasan": 4.8,
                 "Fasiltas": [
                     "Wifi",
@@ -227,7 +260,14 @@
                 "Jam Operas": [
                     "SETIAP HARI 10.00 - 23.00"
                 ],
-                "Informasi": 811936674.0,
+                "image": [
+                    "image/cafe_kampungbelang/Kampung Belang Cafe _ Resto 3.jpg",
+                    "image/cafe_kampungbelang/Kampung Belang Cafe _ Resto 1.jpg",
+                    "image/cafe_kampungbelang/Kampung Belang Cafe _ Resto 2.JPG",
+                    "image/cafe_kampungbelang/Kampung Belang Cafe _ Resto 4.jpg",
+                    "image/cafe_kampungbelang/Kampung Belang Cafe _ Resto 5.jpg"
+                ],
+                "Informasi": "+62 811936674",
                 "Ulasan": 4.4,
                 "Fasiltas": [
                     "Wifi",
@@ -271,7 +311,14 @@
                     "Senin-kamis 09.00 - 22.00",
                     "Jumat-minggu 08.00 - 23.00"
                 ],
-                "Informasi": null,
+                "image": [
+                    "image/cafe_atatu/Atatu Kopi 1.jpg",
+                    "image/cafe_atatu/Atatu Kopi 2.jpg",
+                    "image/cafe_atatu/Atatu Kopi 3.jpg",
+                    "image/cafe_atatu/Atatu Kopi 4.jpg",
+                    "image/cafe_atatu/Atatu Kopi 5.jpg"
+                ],
+                "Informasi": "+62 811936674",
                 "Ulasan": 4.6,
                 "Fasiltas": [
                     "Wifi",
@@ -316,7 +363,14 @@
                     "Kamis 14.00 – 23.00",
                     "Jumat 14.00 – 23.00"
                 ],
-                "Informasi": 81330057713.0,
+                "image": [
+                    "image/cafe_share/Share Kafe 1.jpg",
+                    "image/cafe_share/Share Kafe 2.jpg",
+                    "image/cafe_share/Share Kafe 3.jpg",
+                    "image/cafe_share/Share Kafe 4.jpg",
+                    "image/cafe_share/Share Kafe 5.jpg"
+                ],
+                "Informasi": "+62 81330057713",
                 "Ulasan": 4.9,
                 "Fasiltas": [
                     "Wifi",
@@ -355,7 +409,14 @@
                 "Jam Operas": [
                     "SETIAP HARI 10.00 - 23.00"
                 ],
-                "Informasi": 81388844483.0,
+                "image": [
+                    "image/cafe_warminet/WARMINET 1.jpg",
+                    "image/cafe_warminet/WARMINET 2.jpg",
+                    "image/cafe_warminet/WARMINET 3.jpg",
+                    "image/cafe_warminet/WARMINET 4.jpg",
+                    "image/cafe_warminet/WARMINET 5.jpg"
+                ],
+                "Informasi": "+62 81388844483",
                 "Ulasan": 4.4,
                 "Fasiltas": [
                     "Wifi",
@@ -395,7 +456,14 @@
                 "Jam Operas": [
                     "Setiap hari,08.00 – 20.00"
                 ],
-                "Informasi": 81289212655.0,
+                "image": [
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 1.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 2.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 3.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 4.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 5.jpg"
+                ],
+                "Informasi": "+62 81289212655",
                 "Ulasan": 4.5,
                 "Fasiltas": [
                     "Wifi",
@@ -435,6 +503,13 @@
                 "Jam Operas": [
                     "Setiap hari,09.00 – 20.00"
                 ],
+                "image": [
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 1.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 2.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 3.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 4.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 5.jpg"
+                ],
                 "Informasi": null,
                 "Ulasan": 5.0,
                 "Fasiltas": [
@@ -473,6 +548,13 @@
                 ],
                 "Jam Operas": [
                     "Setiap hari,07.00 – 22.00"
+                ],
+                "image": [
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 1.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 2.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 3.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 4.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 5.jpg"
                 ],
                 "Informasi": null,
                 "Ulasan": 4.8,
@@ -515,7 +597,14 @@
                 "Jam Operas": [
                     "Setiap 13.00 – 00.00"
                 ],
-                "Informasi": 82114624398.0,
+                "image": [
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 1.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 2.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 3.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 4.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 5.jpg"
+                ],
+                "Informasi": "+62 82114624398",
                 "Ulasan": 4.6,
                 "Fasiltas": [
                     "Wifi",
@@ -563,7 +652,14 @@
                     "Kamis 08.00 – 21.00",
                     "Jumat 14.00 – 23.00"
                 ],
-                "Informasi": 85774203460.0,
+                "image": [
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 1.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 2.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 3.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 4.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 5.jpg"
+                ],
+                "Informasi": "+62 85774203460",
                 "Ulasan": 4.3,
                 "Fasiltas": [
                     "Wifi",
@@ -605,7 +701,14 @@
                 "Jam Operas": [
                     "Selasa - Minggu 12.00 - 21.00"
                 ],
-                "Informasi": 81219856508.0,
+                "image": [
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 1.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 2.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 3.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 4.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 5.jpg"
+                ],
+                "Informasi": "+62 81219856508",
                 "Ulasan": 5.0,
                 "Fasiltas": [
                     "Wifi",
@@ -645,7 +748,14 @@
                 "Jam Operas": [
                     "12.00 - 23.00 (Setiap Hari)"
                 ],
-                "Informasi": 87840654903.0,
+                "image": [
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 1.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 2.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 3.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 4.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 5.jpg"
+                ],
+                "Informasi": "+62 87840654903",
                 "Ulasan": 4.8,
                 "Fasiltas": [
                     "Wifi",
@@ -689,7 +799,14 @@
                 "Jam Operas": [
                     "19.00 - 00.00 (Kamis Tutup)"
                 ],
-                "Informasi": 81296200171.0,
+                "image": [
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 1.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 2.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 3.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 4.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 5.jpg"
+                ],
+                "Informasi": "+62 81296200171",
                 "Ulasan": 4.8,
                 "Fasiltas": [
                     "Wifi",
@@ -727,6 +844,13 @@
                 ],
                 "Jam Operas": [
                     "16.00 - 00.00 (Setiap Hari)"
+                ],
+                "image": [
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 1.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 2.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 3.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 4.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 5.jpg"
                 ],
                 "Informasi": null,
                 "Ulasan": 5.0,
@@ -768,7 +892,14 @@
                 "Jam Operas": [
                     "Setiap hari, 09.00 – 23.00"
                 ],
-                "Informasi": 83808811797.0,
+                "image": [
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 1.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 2.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 3.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 4.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 5.jpg"
+                ],
+                "Informasi": "+62 83808811797",
                 "Ulasan": 5.0,
                 "Fasiltas": [
                     "Wifi",
@@ -808,7 +939,14 @@
                 "Jam Operas": [
                     "Setiap hari, 10.00 – 22.00"
                 ],
-                "Informasi": 81717177376.0,
+                "image": [
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 1.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 2.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 3.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 4.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 5.jpg"
+                ],
+                "Informasi": "+62 81717177376",
                 "Ulasan": 4.8,
                 "Fasiltas": [
                     "Wifi",
@@ -847,6 +985,13 @@
                 ],
                 "Jam Operas": [
                     "Setiap hari, 16.00 – 23.00"
+                ],
+                "image": [
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 1.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 2.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 3.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 4.jpg",
+                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 5.jpg"
                 ],
                 "Informasi": null,
                 "Ulasan": 4.6,
