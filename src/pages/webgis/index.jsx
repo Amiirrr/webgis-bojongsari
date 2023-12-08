@@ -10,7 +10,7 @@ import Header from '../../components/layout/Header.jsx';
 import AsideBar from '../../components/asidebar/AsideBar.jsx';
 import Search from '../../components/tools/Search.jsx';
 
-import MiniMap from '../../components/modules/webgis/MiniMap.jsx';
+// import MiniMap from '../../components/modules/webgis/MiniMap.jsx';
 
 import petaDepokData from '../../utils/peta_depok.json';
 import koordinatCafe from "../../utils/koordinat_cafe.json"

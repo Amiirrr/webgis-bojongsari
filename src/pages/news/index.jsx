@@ -29,8 +29,11 @@ const index = () => {
                     </div>
                     <div className={style.news_header}>
                         <div className={style.news_categori}>
-                            <p>news</p>
-                            <p>event</p>
+                            {
+                                data.kategori.map((data) => (
+                                    <p>{data}</p>
+                                ))
+                            }
                         </div>
                         <p className={style.tanggal}>{data.tanggal}</p>
                     </div>
