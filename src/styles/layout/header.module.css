@@ -48,8 +48,12 @@
     cursor: pointer;
 }
 
+.navigation a:hover {
+    font-weight: bolder;
+}
+
 .nav_color {
-    color: black !important;
+    color: #65451F !important;
 }
 
 .navigation a:nth-child(2) {

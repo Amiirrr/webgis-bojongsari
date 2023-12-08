@@ -1,11 +1,16 @@
 import React from 'react'
 import { useState, useEffect, useRef } from 'react';
+import L from 'leaflet';
+
+
 
 import { MapContainer, TileLayer, useMap, Marker, Popup, GeoJSON, LayersControl, FeatureGroup, Tooltip, ZoomControl } from 'react-leaflet'
 
 import Header from '../../components/layout/Header.jsx';
 import AsideBar from '../../components/asidebar/AsideBar.jsx';
 import Search from '../../components/tools/Search.jsx';
+
+import MiniMap from '../../components/modules/webgis/MiniMap.jsx';
 
 import petaDepokData from '../../utils/peta_depok.json';
 import koordinatCafe from "../../utils/koordinat_cafe.json"
@@ -17,6 +22,8 @@ import style from '../../styles/webgis/map.module.css'
 const index = () => {
     const [openSidebar, setOpenSidebar] = useState(false)
     const [inputSearch, setInputSearch] = useState("")
+    const mapContainerRef = useRef();
+
 
     const animateRef = useRef(false)
     // const map = useMap();
@@ -28,6 +35,7 @@ const index = () => {
     // const handleCenterMap = () => {
     //     map.setView([-6.40673123685437, 106.81567576657505], 12); // Ganti koordinat dan zoom sesuai kebutuhan
     // };
+
     return (
         <>
             <Search show={openSidebar} setShow={setOpenSidebar} setInputSearch={setInputSearch} />
@@ -85,6 +93,7 @@ const index = () => {
                     {/* <CustomElement /> */}
                 </LayersControl>
                 <ZoomControl position="bottomright" />
+                {/* <MiniMap mainMap={mapContainerRef} /> */}
             </MapContainer>
         </>
     )

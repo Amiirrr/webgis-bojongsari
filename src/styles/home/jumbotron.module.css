@@ -45,11 +45,20 @@
     cursor: pointer;
     letter-spacing: 1px;
     border-radius: 25px;
+    border: 1px solid transparent;
+    /* Berikan border setidaknya 1px pada keadaan normal */
 }
 
-.jumbotron_content button::after {
+/* .jumbotron_content button::after {
     content: url(../../assets/image/arrow-right.png);
     margin-bottom: -5px;
+} */
+
+.jumbotron_content button:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    opacity: 0.9;
+    /* Atur opasitas keadaan normal agar ada perbedaan saat di-hover */
 }
 
 .jumbotron_image {

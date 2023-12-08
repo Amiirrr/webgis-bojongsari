@@ -1,0 +1,112 @@
+.news_wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 1320px;
+    margin: auto;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 50px 0;
+    /* padding: 0 30px; */
+}
+
+.news_header {
+    width: 100%;
+    height: 50px;
+    font-size: clamp(32px, 4vw, 60px);
+    font-weight: bold;
+    color: #5F6F52;
+    background-image: url('../../assets//image//illustration/cdn_news.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    padding-bottom: 75px;
+}
+
+.news_header .title {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.news_content {
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    /* overflow-x: auto; */
+    scroll-behavior: smooth;
+    gap: 30px;
+}
+
+.news_content::-webkit-scrollbar {
+    height: 8px;
+}
+
+.news_content::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+}
+
+.news_content::-webkit-scrollbar-thumb {
+    background-color: #65451f5d;
+}
+
+.card_news {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    /* margin: 20px; */
+    box-shadow: 5px 5px 10px 0px rgba(231, 231, 231, 0.5);
+    cursor: pointer;
+}
+
+.card_news:hover {
+    box-shadow: 5px 5px 10px 0px rgba(231, 231, 231);
+}
+
+.card_news img {
+    flex: 0 0 50%;
+    border-radius: 15px 15px 0 0;
+}
+
+.card_news .card_content {
+    flex: 0 0 40%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card_news .news_title {
+    font-weight: bold;
+    font-size: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+}
+
+.card_news .news_desc {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+    font-size: 14px;
+    color: rgb(175, 174, 174);
+}
+
+.card_news .news_date {
+    margin-top: auto !important;
+    font-style: italic;
+    font-size: 14px;
+    border-top: 1px solid rgb(233, 233, 233);
+    padding-top: 10px;
+    color: rgb(175, 174, 174);
+}

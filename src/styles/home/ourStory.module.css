@@ -1,0 +1,50 @@
+.story {
+    margin: 30px 0;
+}
+
+.story_header {
+    height: 50px !important;
+    background-image: url('../../assets/image/illustration/Our Story.png');
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position-x: center;
+    width: 100%;
+    padding-bottom: 80px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.story_header .title {
+    /* position: relative; */
+    max-width: 1320px;
+    margin: auto;
+    padding-top: 30px;
+    font-size: clamp(32px, 4vw, 60px);
+    font-weight: bold;
+    color: #5F6F52;
+    padding-left: 30px;
+}
+
+.story_content {
+    max-width: 1320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.story_content img {
+    max-width: 40%;
+    min-width: 300px;
+}
+
+.story_content .isi_story {
+    width: 50%;
+    margin: 0 20px;
+    font-weight: 300;
+    font-size: clamp(12px, 1.5vw, 18px);
+    text-align: justify;
+    line-height: 1.8;
+}
