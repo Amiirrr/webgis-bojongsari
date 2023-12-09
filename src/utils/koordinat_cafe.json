@@ -36,6 +36,7 @@
                 ],
                 "Informasi": "+62 85694939251",
                 "Ulasan": 4.8,
+                "Jumlah Ulasan": 49,
                 "Fasiltas": [
                     "Wifi",
                     "Toilet",
@@ -67,7 +68,7 @@
                 "Longitude": 106.72578733570744,
                 "Koordinat": "-6.374724761909177, 106.72578733570744",
                 "Kelurahan": "Pondok Petir",
-                "Alamat": "JPGG+487, Jl. Serua Bulak Raya, Pd. Petir, Kec. Bojongsari, Kota Depok, Jawa Barat 16517",
+                "Alamat": "Jl. Serua Bulak Raya, Pd. Petir, Kec. Bojongsari, Kota Depok, Jawa Barat 16517",
                 "Opsi Layan": [
                     "Tempat duduk di area terbuka",
                     "Pesan antar",
@@ -86,6 +87,7 @@
                 ],
                 "Informasi": "+62 8953444339251",
                 "Ulasan": 5.0,
+                "Jumlah Ulasan": 313,
                 "Fasiltas": [
                     "Wifi",
                     "Toilet"
@@ -114,7 +116,7 @@
                 "Longitude": 106.7356009,
                 "Koordinat": "-6.3689465, 106.7356009",
                 "Kelurahan": "Serua",
-                "Alamat": "JPJP+C7C, Jl. Reni Jaya Tim., Serua, Kec. Bojongsari, Kota Depok, Jawa Barat 16517",
+                "Alamat": "Jl. Reni Jaya Tim., Serua, Kec. Bojongsari, Kota Depok, Jawa Barat 16517",
                 "Opsi Layan": [
                     "Bawa pulang,",
                     "Makan di tempat"
@@ -131,6 +133,7 @@
                 ],
                 "Informasi": "+62 85715880212",
                 "Ulasan": 5.0,
+                "Jumlah Ulasan": 298,
                 "Fasiltas": [
                     "Wifi",
                     "Toilet",
@@ -175,6 +178,7 @@
                 ],
                 "Informasi": "+62 85820010926",
                 "Ulasan": 4.3,
+                "Jumlah Ulasan": 109,
                 "Fasiltas": [
                     "Wifi",
                     "Toilet"
@@ -222,6 +226,7 @@
                 ],
                 "Informasi": "+62 1318541481",
                 "Ulasan": 4.8,
+                "Jumlah Ulasan": 77,
                 "Fasiltas": [
                     "Wifi",
                     "Toilet"
@@ -269,6 +274,7 @@
                 ],
                 "Informasi": "+62 811936674",
                 "Ulasan": 4.4,
+                "Jumlah Ulasan": 29,
                 "Fasiltas": [
                     "Wifi",
                     "Toilet",
@@ -301,7 +307,7 @@
                 "Longitude": 106.73307427301245,
                 "Koordinat": "-6.397984734914436, 106.73307427301245",
                 "Kelurahan": "Curug",
-                "Alamat": "Jalan Raya Curug, Bojongsari, Sawangan, Curug, Kec. Bojongsari, Kota Depok, Jawa Barat 16517",
+                "Alamat": "Jl. Raya Curug, Bojongsari, Sawangan, Curug, Kec. Bojongsari, Kota Depok, Jawa Barat 16517",
                 "Opsi Layan": [
                     "Pesan antar",
                     "Bawa pulang,",
@@ -320,6 +326,7 @@
                 ],
                 "Informasi": "+62 811936674",
                 "Ulasan": 4.6,
+                "Jumlah Ulasan": 59,
                 "Fasiltas": [
                     "Wifi",
                     "Toilet"
@@ -349,7 +356,7 @@
                 "Longitude": 106.73297251165125,
                 "Koordinat": "-6.394967303011438, 106.73297251165124",
                 "Kelurahan": "Curug",
-                "Alamat": "JP4M+259, Jl. Lestari 2, Curug, Kec. Bojongsari, Kota Depok, Jawa Barat 16517",
+                "Alamat": "Jl. Lestari 2, Curug, Kec. Bojongsari, Kota Depok, Jawa Barat 16517",
                 "Opsi Layan": [
                     "Bawa pulang",
                     "Makan di tempat"
@@ -372,6 +379,7 @@
                 ],
                 "Informasi": "+62 81330057713",
                 "Ulasan": 4.9,
+                "Jumlah Ulasan": 409,
                 "Fasiltas": [
                     "Wifi",
                     "Toilet"
@@ -418,6 +426,7 @@
                 ],
                 "Informasi": "+62 81388844483",
                 "Ulasan": 4.4,
+                "Jumlah Ulasan": 34,
                 "Fasiltas": [
                     "Wifi",
                     "Toilet"
@@ -465,6 +474,7 @@
                 ],
                 "Informasi": "+62 81289212655",
                 "Ulasan": 4.5,
+                "Jumlah Ulasan": 129,
                 "Fasiltas": [
                     "Wifi",
                     "Toilet"
@@ -504,14 +514,15 @@
                     "Setiap hari,09.00 – 20.00"
                 ],
                 "image": [
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 1.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 2.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 3.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 4.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 5.jpg"
+                    "image/cafe_tomoro/TOMORO COFFEE - The Park Sawangan 1.jpg",
+                    "image/cafe_tomoro/TOMORO COFFEE - The Park Sawangan 2.jpg",
+                    "image/cafe_tomoro/TOMORO COFFEE - The Park Sawangan 3.jpg",
+                    "image/cafe_tomoro/TOMORO COFFEE - The Park Sawangan 4.jpg",
+                    "image/cafe_tomoro/TOMORO COFFEE - The Park Sawangan 5.jpg"
                 ],
                 "Informasi": null,
                 "Ulasan": 5.0,
+                "Jumlah Ulasan": 53,
                 "Fasiltas": [
                     "Wifi"
                 ],
@@ -550,14 +561,15 @@
                     "Setiap hari,07.00 – 22.00"
                 ],
                 "image": [
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 1.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 2.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 3.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 4.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 5.jpg"
+                    "image/cafe_starbucks/Starbucks Coffee Bojongsari 1.jpg",
+                    "image/cafe_starbucks/Starbucks Coffee Bojongsari 2.jpg",
+                    "image/cafe_starbucks/Starbucks Coffee Bojongsari 3.jpeg",
+                    "image/cafe_starbucks/Starbucks Coffee Bojongsari 4.jpg",
+                    "image/cafe_starbucks/Starbucks Coffee Bojongsari 5.jpg"
                 ],
                 "Informasi": null,
                 "Ulasan": 4.8,
+                "Jumlah Ulasan": 60,
                 "Fasiltas": [
                     "Wifi",
                     "Toilet"
@@ -598,14 +610,15 @@
                     "Setiap 13.00 – 00.00"
                 ],
                 "image": [
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 1.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 2.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 3.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 4.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 5.jpg"
+                    "image/cafe_joglo/JOGLO TEDUH 1.jpg",
+                    "image/cafe_joglo/JOGLO TEDUH 2.jpg",
+                    "image/cafe_joglo/JOGLO TEDUH 3.jpg",
+                    "image/cafe_joglo/JOGLO TEDUH 4.JPG",
+                    "image/cafe_joglo/JOGLO TEDUH 5.JPG"
                 ],
                 "Informasi": "+62 82114624398",
                 "Ulasan": 4.6,
+                "Jumlah Ulasan": 104,
                 "Fasiltas": [
                     "Wifi",
                     "Toilet",
@@ -653,14 +666,15 @@
                     "Jumat 14.00 – 23.00"
                 ],
                 "image": [
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 1.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 2.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 3.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 4.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 5.jpg"
+                    "image/cafe_a/A_Cafe Bojongsari 1.jpg",
+                    "image/cafe_a/A_Cafe Bojongsari 2.jpg",
+                    "image/cafe_a/A_Cafe Bojongsari 3.jpg",
+                    "image/cafe_a/A_Cafe Bojongsari 4.jpg",
+                    "image/cafe_a/A_Cafe Bojongsari 5.jpg"
                 ],
                 "Informasi": "+62 85774203460",
                 "Ulasan": 4.3,
+                "Jumlah Ulasan": 54,
                 "Fasiltas": [
                     "Wifi",
                     "Toilet",
@@ -702,14 +716,15 @@
                     "Selasa - Minggu 12.00 - 21.00"
                 ],
                 "image": [
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 1.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 2.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 3.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 4.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 5.jpg"
+                    "image/cafe_cotang/Kopi Contang 1.jpg",
+                    "image/cafe_cotang/Kopi Contang 2.jpg",
+                    "image/cafe_cotang/Kopi Contang 3.jpg",
+                    "image/cafe_cotang/Kopi Contang 4.jpg",
+                    "image/cafe_cotang/Kopi Contang 5.jpg"
                 ],
                 "Informasi": "+62 81219856508",
                 "Ulasan": 5.0,
+                "Jumlah Ulasan": 84,
                 "Fasiltas": [
                     "Wifi",
                     "Toilet"
@@ -749,14 +764,15 @@
                     "12.00 - 23.00 (Setiap Hari)"
                 ],
                 "image": [
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 1.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 2.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 3.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 4.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 5.jpg"
+                    "image/cafe_mango/Mango Mase - Coffee _ Eatery 1.jpg",
+                    "image/cafe_mango/Mango Mase - Coffee _ Eatery 2.jpg",
+                    "image/cafe_mango/Mango Mase - Coffee _ Eatery 3.jpg",
+                    "image/cafe_mango/Mango Mase - Coffee _ Eatery 4.jpg",
+                    "image/cafe_mango/Mango Mase - Coffee _ Eatery 5.jpg"
                 ],
                 "Informasi": "+62 87840654903",
                 "Ulasan": 4.8,
+                "Jumlah Ulasan": 324,
                 "Fasiltas": [
                     "Wifi",
                     "Toilet",
@@ -789,7 +805,7 @@
                 "Longitude": 106.73694890102068,
                 "Koordinat": "-6.421720597396133, 106.73694890102068",
                 "Kelurahan": "Duren Mekar",
-                "Alamat": "jalan H. maih rt 01 rw 01 no 22 kp desa, Duren Mekar, Kec. Bojongsari, Kota Depok, Jawa Barat",
+                "Alamat": "Jl. H. maih rt 01 rw 01 no 22 kp desa, Duren Mekar, Kec. Bojongsari, Kota Depok, Jawa Barat",
                 "Opsi Layan": [
                     "Tempat duduk di area terbuka",
                     "Pesan antar",
@@ -800,14 +816,15 @@
                     "19.00 - 00.00 (Kamis Tutup)"
                 ],
                 "image": [
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 1.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 2.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 3.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 4.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 5.jpg"
+                    "image/cafe_tompel/Kopi TOMPEL 1.jpg",
+                    "image/cafe_tompel/Kopi TOMPEL 2.jpg",
+                    "image/cafe_tompel/Kopi TOMPEL 3.jpg",
+                    "image/cafe_tompel/Kopi TOMPEL 4.jpg",
+                    "image/cafe_tompel/Kopi TOMPEL 5.jpg"
                 ],
                 "Informasi": "+62 81296200171",
                 "Ulasan": 4.8,
+                "Jumlah Ulasan": 109,
                 "Fasiltas": [
                     "Wifi",
                     "Toilet"
@@ -846,14 +863,15 @@
                     "16.00 - 00.00 (Setiap Hari)"
                 ],
                 "image": [
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 1.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 2.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 3.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 4.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 5.jpg"
+                    "image/cafe_sosial/Lintas kopi sosial 1.jpg",
+                    "image/cafe_sosial/Lintas kopi sosial 2.jpg",
+                    "image/cafe_sosial/Lintas kopi sosial 3.jpg",
+                    "image/cafe_sosial/Lintas kopi sosial 4.jpg",
+                    "image/cafe_sosial/Lintas kopi sosial 5.jpg"
                 ],
                 "Informasi": null,
                 "Ulasan": 5.0,
+                "Jumlah Ulasan": 309,
                 "Fasiltas": [
                     "Wifi",
                     "Toilet"
@@ -893,14 +911,15 @@
                     "Setiap hari, 09.00 – 23.00"
                 ],
                 "image": [
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 1.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 2.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 3.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 4.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 5.jpg"
+                    "image/cafe_omind/O_Mind Coffee And Eatery 1.jpg",
+                    "image/cafe_omind/O_Mind Coffee And Eatery 2.jpg",
+                    "image/cafe_omind/O_Mind Coffee And Eatery 3.jpg",
+                    "image/cafe_omind/O_Mind Coffee And Eatery 4.jpg",
+                    "image/cafe_omind/O_Mind Coffee And Eatery 5.jpg"
                 ],
                 "Informasi": "+62 83808811797",
                 "Ulasan": 5.0,
+                "Jumlah Ulasan": 234,
                 "Fasiltas": [
                     "Wifi",
                     "Toilet"
@@ -931,7 +950,7 @@
                 "Longitude": 106.75078655268183,
                 "Koordinat": "-6.430748873993807, 106.75078655268183",
                 "Kelurahan": "Duren Seribu",
-                "Alamat": "Duren Seribu, Kec. Bojongsari, Kota Depok, Jawa Barat 16518",
+                "Alamat": "Jl. Duren Seribu, Kec. Bojongsari, Kota Depok, Jawa Barat 16518",
                 "Opsi Layan": [
                     "Bawa pulang,",
                     "Makan di tempat"
@@ -940,14 +959,15 @@
                     "Setiap hari, 10.00 – 22.00"
                 ],
                 "image": [
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 1.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 2.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 3.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 4.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 5.jpg"
+                    "image/cafe_tabik/Tabik Coffee 1.jpeg",
+                    "image/cafe_tabik/Tabik Coffee 2.jpeg",
+                    "image/cafe_tabik/Tabik Coffee 3.jpeg",
+                    "image/cafe_tabik/Tabik Coffee 4.jpg",
+                    "image/cafe_tabik/Tabik Coffee 5.jpeg"
                 ],
                 "Informasi": "+62 81717177376",
                 "Ulasan": 4.8,
+                "Jumlah Ulasan": 409,
                 "Fasiltas": [
                     "Wifi",
                     "Toilet"
@@ -987,14 +1007,15 @@
                     "Setiap hari, 16.00 – 23.00"
                 ],
                 "image": [
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 1.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 2.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 3.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 4.jpg",
-                    "image/cafe_terapot/Terapot Home Gallery _ Cafe 5.jpg"
+                    "image/cafe_daunteduh/Daun Teduh Coffee _ Eatary 1.jpg",
+                    "image/cafe_daunteduh/Daun Teduh Coffee _ Eatary 2.jpg",
+                    "image/cafe_daunteduh/Daun Teduh Coffee _ Eatary 3.jpg",
+                    "image/cafe_daunteduh/Daun Teduh Coffee _ Eatary 4.jpg",
+                    "image/cafe_daunteduh/Daun Teduh Coffee _ Eatary 5.jpg"
                 ],
                 "Informasi": null,
                 "Ulasan": 4.6,
+                "Jumlah Ulasan": 305,
                 "Fasiltas": [
                     "Wifi",
                     "Toilet"

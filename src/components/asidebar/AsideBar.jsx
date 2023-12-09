@@ -73,14 +73,14 @@ const AsideBar = ({ openSidebar, setOpenSidebar, inputSearch, setInputSearch, se
         )
     }
 
-    const handleRating = (rating) => {
+    const handleRating = (rating, jumlahUlasan) => {
         if (rating === 5.0) {
             return (
-                <p>{rating} <span className={Style.star_full}>&#9733;&#9733;&#9733;&#9733;&#9733;</span>(10050)</p>
+                <p>{rating} <span className={Style.star_full}>&#9733;&#9733;&#9733;&#9733;&#9733;</span>({jumlahUlasan})</p>
             )
         } else {
             return (
-                <p>{rating} <span className={Style.star_full}>&#9733;&#9733;&#9733;&#9733;</span><span className={Style.star_half}>&#9733;</span>(10050)</p>
+                <p>{rating} <span className={Style.star_full}>&#9733;&#9733;&#9733;&#9733;</span><span className={Style.star_half}>&#9733;</span>({jumlahUlasan})</p>
             )
         }
     }
@@ -102,7 +102,7 @@ const AsideBar = ({ openSidebar, setOpenSidebar, inputSearch, setInputSearch, se
                 </div>
                 <div className={Style.card_header}>
                     <h3 className={Style.card_title}>{selectedData["Nama Cafe"]}</h3>
-                    {handleRating(selectedData.Ulasan)}
+                    {handleRating(selectedData.Ulasan, selectedData["Jumlah Ulasan"])}
                     <p>Coffee Shop</p>
                 </div>
                 <div className={Style.card_content_option}>
