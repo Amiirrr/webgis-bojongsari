@@ -19,16 +19,24 @@ const Footer = () => {
                     </div>
                     <div className={style.content_sosmed}>
                         <div>
-                            <img src={instagram} alt="instagram" />
+                            <a href="https://www.instagram.com/amirkholiluddin/" target="_blank" rel="noopener noreferrer">
+                                <img src={instagram} alt="instagram" />
+                            </a>
                         </div>
                         <div>
-                            <img src={youtube} alt="youtube" />
+                            <a href="https://www.instagram.com/amirkholiluddin/" target="_blank" rel="noopener noreferrer">
+                                <img src={youtube} alt="youtube" />
+                            </a>
                         </div>
                         <div>
-                            <img src={twitter} alt="twitter" />
+                            <a href="https://www.instagram.com/amirkholiluddin/" target="_blank" rel="noopener noreferrer">
+                                <img src={twitter} alt="twitter" />
+                            </a>
                         </div>
                         <div>
-                            <img src={github} alt="github" />
+                            <a href="https://github.com/Amiirrr" target="_blank" rel="noopener noreferrer">
+                                <img src={github} alt="github" />
+                            </a>
                         </div>
                     </div>
                 </div>
