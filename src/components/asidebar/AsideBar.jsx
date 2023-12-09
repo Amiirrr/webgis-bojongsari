@@ -8,19 +8,14 @@ import closeIcon from '../../assets/image/cross.png'
 import cafe from '../../assets/image/jumbotron2.jpg'
 import data from '../../utils/koordinat_cafe.json'
 
-// import img1 from '../../assets/image/cafe_konkow/Konkow caffe 1.jpg'
-// import img2 from '../../assets/image/cafe_konkow/Konkow caffe 2.jpg'
-// import img3 from '../../assets/image/cafe_konkow/Konkow caffe 3.jpg'
-// import img4 from '../../assets/image/cafe_konkow/Konkow caffe 4.jpg'
-// import img5 from '../../assets/image/cafe_konkow/Konkow caffe 5.jpg'
 
 import Style from "./asideBar.module.css"
 
-const AsideBar = ({ openSidebar, setOpenSidebar, inputSearch, setInputSearch }) => {
+const AsideBar = ({ openSidebar, setOpenSidebar, inputSearch, setInputSearch, selectedCafe, setSelectedCafe }) => {
+
     const navigate = useNavigate()
     const dataCafe = data.features.map(feature => feature.properties)
-    // const [openSidebar, setOpenSidebar] = useState(false)
-    const [selectedCafe, setSelectedCafe] = useState(null)
+    // const [selectedCafe, setSelectedCafe] = useState(null)
     const [infoCafe, setInfoCafe] = useState(false)
     const [cardContentOption, setCardContentOption] = useState("Ringkasan");
 
@@ -90,6 +85,11 @@ const AsideBar = ({ openSidebar, setOpenSidebar, inputSearch, setInputSearch }) 
         }
     }
 
+    const handleCloseCafe = () => {
+        setInfoCafe(!infoCafe);
+        setSelectedCafe(null);
+    }
+
     const renderSelectionCafe = (selectedData) => {
         return (
             <div className={`${Style.card_cafe} ${!infoCafe ? Style.aside_close : ""}`}>
@@ -97,7 +97,7 @@ const AsideBar = ({ openSidebar, setOpenSidebar, inputSearch, setInputSearch }) 
                     <img src={selectedData.image[0]} alt="card-Image" />
                     <div className={Style.card_close}>
                         <img src={closeIcon} alt="close"
-                            onClick={() => setInfoCafe(!infoCafe)} />
+                            onClick={() => handleCloseCafe()} />
                     </div>
                 </div>
                 <div className={Style.card_header}>

@@ -49,15 +49,10 @@
     -webkit-user-drag: none;
 }
 
-.navmap .preview .mini_map:hover {
-    filter: brightness(30%);
-}
-
-
 .navmap .preview .bg_wrapper {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: calc(100% - 5px);
     background-color: rgba(0, 0, 0, 0.575);
     top: 0;
     display: flex;
@@ -65,6 +60,8 @@
     align-items: center;
     border-radius: 15px;
     visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 1s ease;
 }
 
 .navmap .preview .icon_wrapper:hover {
@@ -92,4 +89,5 @@
 
 .navmap .preview:hover .bg_wrapper {
     visibility: visible;
+    opacity: 1;
 }
