@@ -1,8 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-import img_news from '../../../assets/image/news/news_1.png'
-
 import { news } from '../../../utils/data'
 import style from '../../../styles/home/news.module.css'
 

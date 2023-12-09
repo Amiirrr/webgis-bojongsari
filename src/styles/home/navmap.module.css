@@ -1,0 +1,95 @@
+.navmap_wrapper {
+    width: 100% !important;
+    margin: 50px 0 100px;
+}
+
+.container {
+    max-width: 1320px;
+    margin: auto;
+}
+
+.navmap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.navmap .header {
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-image: url('../../assets/image/illustration/letsfindout.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+    position: relative;
+    top: -30px;
+}
+
+.navmap .title {
+    font-size: clamp(32px, 4vw, 60px);
+    font-weight: bold;
+    color: #5F6F52;
+}
+
+.navmap .preview {
+    flex: 0 0 40%;
+    height: fit-content;
+    position: relative;
+}
+
+.navmap .preview .mini_map {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+    -webkit-user-drag: none;
+}
+
+.navmap .preview .mini_map:hover {
+    filter: brightness(30%);
+}
+
+
+.navmap .preview .bg_wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.575);
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    visibility: hidden;
+}
+
+.navmap .preview .icon_wrapper:hover {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.navmap .preview .icon_wrapper {
+    background-color: #fffce9;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+}
+
+.navmap .preview .icon {
+    width: 100%;
+    height: 100%;
+}
+
+.navmap .preview .icon_wrapper:hover .icon {
+    filter: brightness(100) !important;
+}
+
+.navmap .preview:hover .bg_wrapper {
+    visibility: visible;
+}
