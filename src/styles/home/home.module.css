@@ -1,5 +1,5 @@
 .home::-webkit-scrollbar {
-    height: 8px;
+    width: 8px;
 }
 
 .home::-webkit-scrollbar-track {
