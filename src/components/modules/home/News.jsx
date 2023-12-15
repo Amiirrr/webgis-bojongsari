@@ -30,7 +30,6 @@ const News = () => {
                                     <p className={style.news_date}>{data.tanggal}</p>
                                 </div>
                             </div>
-
                         ))
                     }
                 </div>

@@ -39,8 +39,6 @@ function Coordinates() {
             },
         });
 
-
-
         // Check if the control is already added to avoid duplicates
         if (!map.coordinatesControl) {
             // Create an instance of the Coordinates Control
@@ -53,7 +51,6 @@ function Coordinates() {
             map.on('mousemove', coordinatesControl._updateCoordinates, coordinatesControl);
 
             // L.control.scale({ metric: true, position: 'bottomleft' }).addTo(map);
-
             // Save the control reference to the map object
             map.coordinatesControl = coordinatesControl;
 
@@ -63,7 +60,6 @@ function Coordinates() {
                 map.coordinatesControl = null;
             };
         }
-
         // If the control is already added, no need to do anything
     }, [map]);
 

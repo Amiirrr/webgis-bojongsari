@@ -5,7 +5,6 @@ import Header from '../../layout/Header.jsx';
 import Footer from '../../layout/Footer.jsx'
 
 import { team } from '../../../utils/data'
-
 import style from '../../../styles/about_us/aboutUs.module.css'
 
 const AboutUs = () => {

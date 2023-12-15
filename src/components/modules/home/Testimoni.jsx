@@ -1,6 +1,5 @@
 import React from 'react'
 
-import imgCard from '../../../assets/image/Richard.png'
 import style from '../../../styles/home/testimoni.module.css'
 
 const Testimoni = () => {
@@ -35,8 +34,6 @@ const Testimoni = () => {
                             <p>@irwanto</p>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>

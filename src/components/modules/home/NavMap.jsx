@@ -7,8 +7,8 @@ import iconNav from '../../../assets/image/illustration/nav_map.png'
 import style from '../../../styles/home/navmap.module.css'
 
 const NavMap = () => {
-
     const navigate = useNavigate();
+
     return (
         <div className={style.navmap_wrapper} id='maps'>
             <div className={style.container}>

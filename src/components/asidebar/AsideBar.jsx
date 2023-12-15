@@ -197,7 +197,6 @@ const AsideBar = ({ openSidebar, setOpenSidebar, inputSearch, setInputSearch, se
                 </div>
             </div>
         )
-
     }
 
     return (
@@ -205,8 +204,6 @@ const AsideBar = ({ openSidebar, setOpenSidebar, inputSearch, setInputSearch, se
             <div className={Style.menu}>
                 <img src={burgerIcon} alt="menu"
                     onClick={() => setOpenSidebar(!openSidebar)}
-                // onClick={() => setInfoCafe(!infoCafe)}
-
                 />
             </div>
             <div className={Style.home}>
@@ -215,15 +212,10 @@ const AsideBar = ({ openSidebar, setOpenSidebar, inputSearch, setInputSearch, se
                 />
             </div>
             {
-                openSidebar && (
-                    renderSidebar()
-                )
+                openSidebar && renderSidebar()
             }
-
             {
-                infoCafe && (
-                    renderSelectionCafe(selectedCafe)
-                )
+                infoCafe && renderSelectionCafe(selectedCafe)
             }
         </div>
     )

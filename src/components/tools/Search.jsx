@@ -1,5 +1,4 @@
 import React from 'react'
-import { useState } from 'react'
 
 import searchIcon from '../../assets/image/search.png'
 
@@ -22,5 +21,4 @@ const Search = ({ show, setShow, inputSearch, setInputSearch }) => {
         </div>
     )
 }
-
 export default Search
