@@ -12,7 +12,7 @@ const News = () => {
     }
 
     return (
-        <div className={style.news_wrapper}>
+        <div className={style.news_wrapper} id='news'>
             <div className={style.news}>
                 <div className={style.news_header}>
                     <p className={style.title}>CDN News</p>

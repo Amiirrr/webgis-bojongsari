@@ -29,8 +29,10 @@ const Header = ({ fixedHeader }) => {
     return (
         <div className={`${style.header} ${fixedHeader ? style.fixed_header : style.sticky_header} ${scrolled ? style.scrolled : ''}`}>
             <nav className={style.navigation}>
-                <a className={`${(!fixedHeader || scrolled) ? style.nav_color : ""}`} onClick={() => navigate('/home')}>Home</a>
-                <a className={`${(!fixedHeader || scrolled) ? style.nav_color : ""}`} onClick={() => navigate('/map')}>CDN</a>
+                <a className={`${(!fixedHeader || scrolled) ? style.nav_color : ""}`} onClick={() => { navigate('/home'), window.scrollTo(0, 0) }}>Home</a>
+                <a className={`${(!fixedHeader || scrolled) ? style.nav_color : ""}`} onClick={() => navigate('/home')} href='#news'>News</a>
+                <a className={`${style.logo} ${(!fixedHeader || scrolled) ? style.nav_color : ""}`} onClick={() => navigate('/home')}>CDN</a>
+                <a className={`${(!fixedHeader || scrolled) ? style.nav_color : ""}`} onClick={() => navigate('/home')} href='#maps'>Maps</a>
                 <a className={`${(!fixedHeader || scrolled) ? style.nav_color : ""}`} onClick={() => navigate('/about-us')}>About us</a>
             </nav>
         </div>
@@ -38,7 +40,4 @@ const Header = ({ fixedHeader }) => {
 }
 
 export default Header
-
-// <div className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
-
 

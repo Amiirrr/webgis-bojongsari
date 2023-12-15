@@ -31,7 +31,7 @@
     height: 100vh;
     width: 500px;
     padding-top: 70px;
-    z-index: 999;
+    z-index: 9999 !important;
     top: 0px;
     animation: 0.5s cubic-bezier(.25, 1, .30, 1) wipe-in-right both;
     overflow: hidden;

@@ -1,74 +1,76 @@
-// import React, { useEffect } from 'react';
-// import L from 'leaflet';
-// import 'leaflet/dist/leaflet.css';
-// import 'leaflet-minimap/dist/Control.MiniMap.min.css';
-// import 'leaflet-minimap';
+import React from 'react'
+import { useState, useMemo, useCallback } from 'react';
+import { MapContainer, TileLayer, useMap, useMapEvent, Rectangle } from 'react-leaflet'
+import { useEventHandlers } from '@react-leaflet/core'
 
-// const MiniMap = ({ mainMap }) => {
-//     useEffect(() => {
-//         const osm2 = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-//             minZoom: 0,
-//             maxZoom: 13,
-//             attribution: '© OpenStreetMap contributors',
-//         });
+const POSITION_CLASSES = {
+    bottomleft: 'leaflet-bottom leaflet-left',
+    bottomright: 'leaflet-bottom leaflet-right',
+    topleft: 'leaflet-top leaflet-left',
+    topright: 'leaflet-top leaflet-right',
+}
 
-//         const miniMap = new L.Control.MiniMap(osm2, { toggleDisplay: true }).addTo(mainMap);
+const BOUNDS_STYLE = { weight: 1 }
 
-//         return () => {
-//             miniMap.remove(); // Cleanup when component unmounts
-//         };
-//     }, [mainMap]);
+function MinimapBounds({ parentMap, zoom }) {
+    const minimap = useMap()
 
-//     return null; // MiniMap will be inserted into the main map
-// };
+    // Clicking a point on the minimap sets the parent's map center
+    const onClick = useCallback(
+        (e) => {
+            parentMap.setView(e.latlng, parentMap.getZoom())
+        },
+        [parentMap],
+    )
+    useMapEvent('click', onClick)
 
-// export default MiniMap;
+    // Keep track of bounds in state to trigger renders
+    const [bounds, setBounds] = useState(parentMap.getBounds())
+    const onChange = useCallback(() => {
+        setBounds(parentMap.getBounds())
+        // Update the minimap's view to match the parent map's center and zoom
+        minimap.setView(parentMap.getCenter(), zoom)
+    }, [minimap, parentMap, zoom])
 
-// Contoh sederhana MiniMap.jsx
-// import React from 'react';
-// import { MapContainer, TileLayer } from 'react-leaflet';
+    // Listen to events on the parent map
+    const handlers = useMemo(() => ({ move: onChange, zoom: onChange }), [])
+    useEventHandlers({ instance: parentMap }, handlers)
 
-// const MiniMap = ({ mainMap }) => {
-//     return (
-//         <MapContainer
-//             center={[-6.40673123685437, 106.81567576657505]}
-//             zoom={12}
-//             style={{ height: '100px', width: '100px' }}  // Sesuaikan ukuran sesuai kebutuhan
-//         >
-//             <TileLayer
-//                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-//                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-//             />
-//         </MapContainer>
-//     );
-// };
+    return <Rectangle bounds={bounds} pathOptions={BOUNDS_STYLE} />
+}
 
-// export default MiniMap;
+function MinimapControl({ position, zoom }) {
+    const parentMap = useMap()
+    const mapZoom = zoom || 0
 
-// MiniMap.jsx
-import React, { useEffect } from 'react';
-import L from 'leaflet';
-import 'leaflet/dist/leaflet.css';
-import 'leaflet-minimap/dist/Control.MiniMap.min.css';
-import 'leaflet-minimap';
+    // Memoize the minimap so it's not affected by position changes
+    const minimap = useMemo(
+        () => (
+            <MapContainer
+                style={{ height: 150, width: 150 }}
+                center={parentMap.getCenter()}
+                zoom={mapZoom}
+                dragging={false}
+                doubleClickZoom={false}
+                scrollWheelZoom={false}
+                attributionControl={false}
+                zoomControl={false}>
+                <TileLayer
+                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+                <MinimapBounds parentMap={parentMap} zoom={mapZoom} />
+            </MapContainer>
+        ),
+        [],
+    )
 
-const MiniMap = ({ mainMap }) => {
-    useEffect(() => {
-        const osm2 = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            minZoom: 0,
-            maxZoom: 13,
-            attribution: '© OpenStreetMap contributors'
-        });
+    const positionClass =
+        (position && POSITION_CLASSES[position]) || POSITION_CLASSES.topright
+    return (
+        <div className={positionClass}>
+            <div className="leaflet-control leaflet-bar">{minimap}</div>
+        </div>
+    )
+}
 
-        const miniMap = new L.Control.MiniMap(osm2, { position: 'bottomright' }).addTo(mainMap);
-
-        return () => {
-            // Cleanup code if needed
-            mainMap.removeControl(miniMap);
-        };
-    }, [mainMap]);
-
-    return null;
-};
-
-export default MiniMap;
+export default MinimapControl

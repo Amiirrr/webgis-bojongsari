@@ -56,7 +56,7 @@
     color: #65451F !important;
 }
 
-.navigation a:nth-child(2) {
+.navigation .logo {
     font-size: 30px;
     font-weight: bold;
     display: inline-block;

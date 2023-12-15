@@ -1,11 +1,10 @@
 import React from 'react'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import burgerIcon from '../../assets/image/menu-burger.png'
 import homeIcon from '../../assets/image/home.png'
 import markIcon from '../../assets/image/marker.png'
 import closeIcon from '../../assets/image/cross.png'
-import cafe from '../../assets/image/jumbotron2.jpg'
 import data from '../../utils/koordinat_cafe.json'
 
 
@@ -15,7 +14,6 @@ const AsideBar = ({ openSidebar, setOpenSidebar, inputSearch, setInputSearch, se
 
     const navigate = useNavigate()
     const dataCafe = data.features.map(feature => feature.properties)
-    // const [selectedCafe, setSelectedCafe] = useState(null)
     const [infoCafe, setInfoCafe] = useState(false)
     const [cardContentOption, setCardContentOption] = useState("Ringkasan");
 
@@ -40,7 +38,6 @@ const AsideBar = ({ openSidebar, setOpenSidebar, inputSearch, setInputSearch, se
 
     const filteredCafeData = inputSearch === null || inputSearch === "" ? dataCafe : handleSearch();
 
-
     const renderSidebar = () => {
         return (
             <div className={`${Style.asidebar} ${!openSidebar ? Style.aside_close : ""}`}>
@@ -48,7 +45,10 @@ const AsideBar = ({ openSidebar, setOpenSidebar, inputSearch, setInputSearch, se
                     <h3 className={Style.title}>Daftar Coffee Shop</h3>
                     <div className={Style.close}>
                         <img src={closeIcon} alt="close"
-                            onClick={() => setOpenSidebar(!openSidebar)}
+                            onClick={() => {
+                                setOpenSidebar(!openSidebar)
+                                setInputSearch("")
+                            }}
                         />
                     </div>
                 </div>
@@ -225,11 +225,6 @@ const AsideBar = ({ openSidebar, setOpenSidebar, inputSearch, setInputSearch, se
                     renderSelectionCafe(selectedCafe)
                 )
             }
-
-
-
-
-
         </div>
     )
 }

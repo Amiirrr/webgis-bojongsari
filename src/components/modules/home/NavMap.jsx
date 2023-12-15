@@ -10,7 +10,7 @@ const NavMap = () => {
 
     const navigate = useNavigate();
     return (
-        <div className={style.navmap_wrapper}>
+        <div className={style.navmap_wrapper} id='maps'>
             <div className={style.container}>
                 <div className={style.navmap}>
                     <div className={style.header}>

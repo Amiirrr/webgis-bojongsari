@@ -39,6 +39,10 @@
   font-family: var(--body-font);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .leaflet-container {
   width: 100vw;
   height: 100vh;
@@ -57,4 +61,19 @@
   align-items: center;
   text-align: center;
   left: 50%;
+}
+
+.leaflet-control-coordinates {
+  margin: 0 0 10px 20px !important;
+  background-color: transparent;
+  z-index: 1 !important;
+}
+
+.leaflet-control-coordinates div:nth-child(1),
+.leaflet-control-coordinates div:nth-child(2) {
+  margin-bottom: 5px;
+  background-color: #ffffff;
+  padding: 0 20px;
+  border-radius: 25px;
+  z-index: 1 !important;
 }

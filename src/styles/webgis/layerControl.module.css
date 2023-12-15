@@ -1,13 +1,9 @@
-.leaflet-container {
-    position: relative;
-}
-
 .peta_kota {
-    fill: #5F6F52;
+    fill: #7E30E1;
 }
 
 .peta_kecamatan {
-    fill: #368100;
+    fill: #C4317B;
 }
 
 .select_tooltip {
