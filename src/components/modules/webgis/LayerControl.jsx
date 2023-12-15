@@ -12,20 +12,10 @@ import style from '../../../styles/webgis/layerControl.module.css'
 const LayerControl = () => {
     return (
         <LayersControl position="topright">
-            <LayersControl.BaseLayer checked name="OpenStreetMap">
+            <LayersControl.BaseLayer checked name="Google Maps">
                 <TileLayer
-                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                />
-            </LayersControl.BaseLayer>
-            <LayersControl.BaseLayer name="Stadia Outdoor">
-                <TileLayer
-                    url='https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png'
-                />
-            </LayersControl.BaseLayer>
-            <LayersControl.BaseLayer name="Nat Geo World Map">
-                <TileLayer
-                    attribution="Nat Geo World Map"
-                    url="https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}"
+                    attribution="Google Maps"
+                    url="https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}"
                 />
             </LayersControl.BaseLayer>
             <LayersControl.BaseLayer name="Google Satellite">
@@ -34,10 +24,9 @@ const LayerControl = () => {
                     url="https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}"
                 />
             </LayersControl.BaseLayer>
-            <LayersControl.BaseLayer checked name="Google Maps">
+            <LayersControl.BaseLayer name="OpenStreetMap">
                 <TileLayer
-                    attribution="Google Maps"
-                    url="https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}"
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
             </LayersControl.BaseLayer>
             <LayersControl.BaseLayer name="Google Roads">
