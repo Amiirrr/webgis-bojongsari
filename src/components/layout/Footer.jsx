@@ -41,7 +41,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className={style.footer_copyright}>
-                    <p>© 2023 Kelompok 6 QGIS, All Rights Reserved</p>
+                    <p>© 2023 Kelompok 3 QGIS, All Rights Reserved</p>
                 </div>
             </div>
         </footer>
