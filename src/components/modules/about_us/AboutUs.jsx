@@ -17,7 +17,7 @@ const AboutUs = () => {
             <div className={style.about}>
                 <div className={style.about_container}>
                     <div className={style.about_title}>
-                        <h3>- The Founders</h3>
+                        <h3>- The Founders by Kelompok 3</h3>
                     </div>
                     <div className={style.about_item}>
                         {
