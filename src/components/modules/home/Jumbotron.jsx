@@ -12,7 +12,7 @@ const Jumbotron = () => {
             <div className={style.jumbotron}>
                 <div className={style.jumbotron_content}>
                     <p>WebGIS</p>
-                    <h1>Caffeine Depok Amir Ganteng <br />Network</h1>
+                    <h1>Caffeine Depok<br />Network</h1>
                     <p>Kecamatan Bojongsari, Kota Depok.</p>
                     <button
                         onClick={() => navigate('/map')}
