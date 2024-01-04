@@ -63,7 +63,7 @@ const LayerControl = () => {
                     data={jalanBojongsari} />
             </LayersControl.Overlay>
 
-            <LayersControl.Overlay name="Cafe">
+            <LayersControl.Overlay checked name="Cafe">
                 <FeatureGroup>
                     {koordinatCafe.features.map((feature) => (
                         <Marker
