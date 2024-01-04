@@ -35,10 +35,17 @@ const LayerControl = () => {
                     url="https://mt1.google.com/vt/lyrs=h&x={x}&y={y}&z={z}"
                 />
             </LayersControl.BaseLayer>
+            {/* <LayersControl.BaseLayer name="Terrain">
+                <TileLayer
+                    attribution="Google Terrain"
+                    url=" https://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z}"
+                />
+            </LayersControl.BaseLayer> */}
 
             <LayersControl.Overlay checked name="Peta Kota Depok">
                 <FeatureGroup >
                     <GeoJSON
+                        // ubah warna garis
                         pathOptions={{ color: '#49108B', weight: "2" }}
                         className={style.peta_kota}
                         data={petaDepokData} />
@@ -46,7 +53,10 @@ const LayerControl = () => {
             </LayersControl.Overlay>
 
             <LayersControl.Overlay checked name="Peta Kecamatan Bojongsari">
-                <GeoJSON pathOptions={{ color: '#C4317B', weight: "2" }} className={style.peta_kecamatan} data={petaKecamatanBojongsari} />
+                <GeoJSON
+                    pathOptions={{ color: '#C4317B', weight: "2" }}
+                    className={style.peta_kecamatan}
+                    data={petaKecamatanBojongsari} />
             </LayersControl.Overlay>
 
             <LayersControl.Overlay name="Jalan Kecamatan Bojongsari">
