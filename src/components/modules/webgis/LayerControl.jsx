@@ -53,7 +53,7 @@ const LayerControl = () => {
             </LayersControl.Overlay>
 
             <LayersControl.Overlay checked name="Peta Kecamatan Bojongsari">
-                <GeoJSON pathOptions={{ color: '#C4317B', weight: "2" }} className={style.peta_kecamatan} data={petaKecamatanBojongsari} />
+                <GeoJSON pathOptions={{ color: '#006400', weight: "2" }} className={style.peta_kecamatan} data={petaKecamatanBojongsari} />
             </LayersControl.Overlay>
 
             <LayersControl.Overlay name="Jalan Kecamatan Bojongsari">
