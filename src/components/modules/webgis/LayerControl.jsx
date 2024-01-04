@@ -36,7 +36,7 @@ const LayerControl = () => {
                 />
             </LayersControl.BaseLayer>
 
-            <LayersControl.Overlay checked name="Peta Kota Depok">
+            <LayersControl.Overlay name="Peta Kota Depok">
                 <FeatureGroup >
                     <GeoJSON
                         pathOptions={{ color: '#49108B', weight: "2" }}
@@ -46,7 +46,7 @@ const LayerControl = () => {
             </LayersControl.Overlay>
 
             <LayersControl.Overlay checked name="Peta Kecamatan Bojongsari">
-                <GeoJSON pathOptions={{ color: '#C4317B', weight: "2" }} className={style.peta_kecamatan} data={petaKecamatanBojongsari} />
+                <GeoJSON pathOptions={{ color: '#006400', weight: "2" }} className={style.peta_kecamatan} data={petaKecamatanBojongsari} />
             </LayersControl.Overlay>
 
             <LayersControl.Overlay name="Jalan Kecamatan Bojongsari">
@@ -56,7 +56,7 @@ const LayerControl = () => {
                     data={jalanBojongsari} />
             </LayersControl.Overlay>
 
-            <LayersControl.Overlay checked name="Cafe">
+            <LayersControl.Overlay name="Cafe">
                 <FeatureGroup>
                     {koordinatCafe.features.map((feature) => (
                         <Marker
