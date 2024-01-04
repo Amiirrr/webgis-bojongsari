@@ -6,7 +6,7 @@ import style from '../../../styles/home/testimoni.module.css'
 const Testimoni = () => {
     return (
         <div className={style.testimoni_wrapper}>
-            <div className={style.testimoni}>
+            <div className={style.testimoni} id='testimoni'>
                 <div className={style.testimoni_header}>
                     <p className={style.title}>Testimoni</p>
                 </div>

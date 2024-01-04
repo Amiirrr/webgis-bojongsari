@@ -5,7 +5,7 @@ import img_story from '../../../assets/image/img_story.png'
 
 const OurStory = () => {
     return (
-        <div className={style.story}>
+        <div className={style.story} id='our_story'>
             <div className={style.story_header}>
                 <div className={style.title}>
                     <span>Our Story</span>
