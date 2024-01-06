@@ -10,9 +10,6 @@ const Testimoni = () => {
                 <div className={style.testimoni_header}>
                     <p className={style.title}>Testimoni</p>
                 </div>
-                <img
-                    className={style.img}
-                    src={imgTestimoni} alt="img" />
                 <div className={style.testimoni_content}>
                     <div className={style.testimoni_card}>
                         <div className={style.isi}>
